@@ -1,9 +1,6 @@
 # 1209
 # [S/W 문제해결 기본] 2일차 - Sum
 
-# import sys
-# sys.stdin = open("input.txt", "r")
-
 for test_case in range(1,11):
     tc = int(input())
     arr = []

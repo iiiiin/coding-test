@@ -1,9 +1,6 @@
 # 1230
 # [S/W 문제해결 기본] 8일차 - 암호문3
 
-import sys
-sys.stdin = open("input.txt", "r")
-
 for test_case in range(1,11):
     n = int(input())
     pw = list(input().split())

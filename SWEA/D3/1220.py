@@ -1,9 +1,6 @@
 # 1220
 # [S/W 문제해결 기본] 5일차 - Magnetic
 
-import sys
-sys.stdin = open("input.txt", "r")
-
 for test_case in range(1,11):
     t = int(input())
     result = 0

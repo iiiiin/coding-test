@@ -1,9 +1,6 @@
 # 1225
 # S/W 문제해결 기본] 7일차 - 암호생성기
 
-import sys
-sys.stdin = open("input.txt", "r")
-
 for test_case in range(1,11):
     t = int(input())
     pw = list(map(int, input().split()))

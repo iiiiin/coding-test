@@ -1,9 +1,6 @@
 # 1216
 # [S/W 문제해결 기본] 3일차 - 회문2
 
-import sys
-sys.stdin = open("input.txt", "r")
-
 for test_case in range(1,11):
     n = int(input())
     s = [input() for _ in range(100)]

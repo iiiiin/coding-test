@@ -1,7 +1,6 @@
 # 1229
 # [S/W 문제해결 기본] 8일차 - 암호문2
 
-
 for test_case in range(1,11):
     n = int(input())
     pw_origin = list(input().split())

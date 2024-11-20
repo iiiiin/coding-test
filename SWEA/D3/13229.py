@@ -3,7 +3,6 @@
 
 T = int(input())
 
-
 for test_case in range(1,T+1):
     S = input()
     week = ["MON","TUE","WED","THU","FRI","SAT","SUN"]

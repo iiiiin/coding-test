@@ -1,7 +1,6 @@
 # 5603
 # [Professional] 건초더미
 
-
 T = int(input())
 
 for test_case in range(1,T+1):

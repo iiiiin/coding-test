@@ -1,10 +1,6 @@
 # 1213
 # [S/W 문제해결 기본] 3일차 - String
 
-import sys
-sys.stdin = open("input.txt", "r", encoding="utf-8")
-
-
 for test_case in range(1,11):
     n = int(input())
     s_find = input()
