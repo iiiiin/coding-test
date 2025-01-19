@@ -3,10 +3,8 @@
 
 for test_case in range(1,11):
     n = int(input())
-    arr = []
+    arr = [input() for _ in range(8)]
     result = 0
-    for _ in range(8):
-        arr.append(input())
     for i in range(8):
         for j in range(8-n+1):
             if arr[i][j:j+n] == arr[i][j:j+n][::-1]:
@@ -17,3 +15,4 @@ for test_case in range(1,11):
             if t_arr[i][j:j+n] == t_arr[i][j:j+n][::-1]:
                 result += 1
     print(f"#{test_case} {result}")
+

@@ -5,12 +5,6 @@ for test_case in range(1,11):
     n = int(input())
     s_find = input()
     s = input()
-    i = 0
-    result = 0
-    while i <= len(s) - 1:
-        if s[i:i+len(s_find)] == s_find:
-            result += 1
-            i += len(s_find)
-        else:
-            i += 1
+    result = s.count(s_find)
     print(f"#{n} {result}")
+
