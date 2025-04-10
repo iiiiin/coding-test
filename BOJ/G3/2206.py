@@ -1,3 +1,6 @@
+# 2206
+# 벽 부수고 이동하기
+
 from collections import deque
 import sys
 input = sys.stdin.readline
